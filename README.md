@@ -14,11 +14,11 @@ Both models use the same data split and are evaluated on the same official GTSRB
 
 | # | Member | Role |
 |---|---|---|
-| 1 | Jana | Research and literature review |
+| 1 | Jana Algahtani | Research and literature review |
 | 2 | Nora Alqahtani | Dataset and preprocessing |
 | 3 | Tayma Aldobas | Model 1: Custom CNN |
 | 4 | Arwa Alqahtani | Model 2: YOLOv8n-cls |
-| 5 | Joud | Optimization and experiments |
+| 5 | Joud Alshehri | Optimization and experiments |
 | 6 | Mashaal Abdullah | Evaluation and final integration |
 
 ## Notebooks
@@ -47,12 +47,12 @@ All images of the same physical sign (track) are kept in the same partition, so 
 
 ## Results on the test set
 
-| Model | Accuracy | Precision (macro) | Recall (macro) | F1 (macro) | Parameters |
-|---|---|---|---|---|---|
-| Custom CNN (initial) | 0.9360 | 0.9102 | 0.9083 | 0.9033 | 361,067 |
-| Custom CNN (optimized) | 0.9488 | 0.9337 | 0.9243 | 0.9235 | 361,067 |
-| YOLOv8n-cls (initial) | 0.9891 | 0.9882 | 0.9830 | 0.9844 | 1,493,371 |
-| YOLOv8n-cls (optimized) | 0.9859 | 0.9842 | 0.9763 | 0.9793 | 1,493,371 |
+| Model | Accuracy | Precision (macro) | Recall (macro) | F1 (macro) | ROC-AUC | Parameters |
+|---|---|---|---|---|---|---|
+| Custom CNN (initial) | 0.9360 | 0.9102 | 0.9083 | 0.9033 | 0.9970 | 361,067 |
+| Custom CNN (optimized) | 0.9488 | 0.9337 | 0.9243 | 0.9235 | 0.9993 | 361,067 |
+| YOLOv8n-cls (initial) | 0.9891 | 0.9882 | 0.9830 | 0.9844 | 0.9999 | 1,493,371 |
+| YOLOv8n-cls (optimized) | 0.9859 | 0.9842 | 0.9763 | 0.9793 | 0.99995 | 1,493,371 |
 
 ## How to run
 
