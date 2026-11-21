@@ -31,8 +31,7 @@ Run them in this order. Each one is a Google Colab notebook.
 | `notebooks/02_custom_cnn.ipynb` | Builds and trains the Custom CNN. |
 | `notebooks/03_yolov8n_cls.ipynb` | Fine-tunes YOLOv8n-cls on the same split. |
 | `notebooks/04_optimization.ipynb` | Hyperparameter experiments for both models. |
-| `notebooks/05_evaluation.ipynb` | Evaluates both models on the test set: metrics table, confusion matrices, ROC curves, and per-class F1. |
-| `notebooks/06_detection_integration.ipynb` | YOLOv8n detection to locate signs in road images, combined with the Custom CNN to classify each detected sign (Figure 12). |
+| `notebooks/05_evaluation.ipynb` | Evaluates the initial and final (optimized) versions of both models on the test set: metrics tables, effect of optimization, per-class F1, confusion matrices, ROC curves, and error overlap. || `notebooks/06_detection_integration.ipynb` | YOLOv8n detection to locate signs in road images, combined with the Custom CNN to classify each detected sign (Figure 12). |
 
 ## Dataset
 
